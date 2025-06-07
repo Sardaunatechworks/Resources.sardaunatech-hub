@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 1.5rem;
+}
+
+#course-select {
+  margin-bottom: 1.5rem;
+}
+
+#resource-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.resource-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.resource-card h3 {
+  margin-top: 0;
+}
+
+.resource-card a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.resource-card a:hover {
+  text-decoration: underline;
+}
