@@ -1,21 +1,21 @@
 const resources = {
   cybersecurity: [
-    { title: "Intro to Cybersecurity", link: "https://youtu.be/fIntroCyber" },
-    { title: "Ethical Hacking Guide", link: "https://example.com/hacking-guide.pdf" },
+    { title: "Intro to Cybersecurity", link: "https://youtu.be/ooJSgsB5fIE?si=wol_HqREXOMDybL5r" },
+    { title: "Coming Soon", link: "" },
   ],
   ai: [
-    { title: "AI Basics with Python", link: "https://youtu.be/ai-python" },
-    { title: "Machine Learning Crash Course", link: "https://example.com/ml-course" },
+    { title: "Intro to Artificial Intelligence", link: "https://youtu.be/bknUn7yMwNI?si=VPNyFJRtnZa5HcUE" },
+    { title: "Coming Soon 🔜", link: "" },
   ],
   web: [
-    { title: "HTML, CSS, JS Bootcamp", link: "https://youtube.com/webbootcamp" },
-    { title: "Frontend Dev Guide", link: "https://example.com/frontend.pdf" },
+    { title: "Intro to Web Dev", link: "https://youtu.be/GxmfcnU3feo?si=EB5zCHUOHwq7A1wA" },
+    { title: "Coming Soon", link: "" },
   ],
-  mobile: [
-    { title: "React Native for Beginners", link: "https://youtube.com/shorts/V_8PlJhjzI4?si=aK70umSIJHOsPYiy" }
+  cloud: [
+    { title: "Intro to Cloud Computing ", link: "https://youtu.be/M988_fsOSWo?si=53Q1j4OD41h0G1fu" }
   ],
   uiux: [
-    { title: "Design Thinking", link: "https://example.com/design-thinking" }
+    { title: "Intro To UI/UX Design", link: "https://youtu.be/55NvZjUZIO8?si=5-vhtPbLERTTW2PM" }
   ]
 };
 
