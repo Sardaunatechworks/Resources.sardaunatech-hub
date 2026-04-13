@@ -3,32 +3,43 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tech Course Resources</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Student Resources | Sardauna Tech Hub</title>
+  <meta name="description" content="Access high-quality learning materials for Cybersecurity, AI, Web Development, and more at Sardauna Tech Hub.">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Sardauna Tech Hub - Student Resources</h1>
+    <h1>Sardauna Tech Hub</h1>
+    <p>Empowering the next generation of tech leaders with premium resources.</p>
   </header>
 
   <main>
-    <div id="course-select">
-      <label for="course">Select Course:</label>
-      <select id="course">
-        <option value="cybersecurity">Cybersecurity</option>
-        <option value="ai">Artificial Intelligence</option>
-        <option value="web">Web Development</option>
-        <option value="cloud">cloud computing</option>
-        <option value="uiux">UI/UX Design</option>
-      </select>
-    </div>
+    <section id="controls">
+      <div class="control-group">
+        <label for="course">Learning Path</label>
+        <select id="course">
+          <option value="all">All Learning Paths</option>
+          <option value="cybersecurity">Cybersecurity</option>
+          <option value="ai">Artificial Intelligence</option>
+          <option value="web">Web Development</option>
+          <option value="cloud">Cloud Computing</option>
+          <option value="uiux">UI/UX Design</option>
+        </select>
+      </div>
 
-    <div id="resource-list">
-      <!-- Resources will load here -->
-    </div>
+      <div class="control-group">
+        <label for="search">Search Resources</label>
+        <input type="text" id="search" placeholder="Search by title or topic..." autocomplete="off">
+      </div>
+    </section>
+
+    <section id="resource-container">
+      <div id="resource-list">
+        <!-- Resources will be dynamically injected here -->
+      </div>
+    </section>
   </main>
-<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+
   <script src="main.js"></script>
-  
 </body>
 </html>
